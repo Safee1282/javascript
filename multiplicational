@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <button onclick="multiply(4)">Click Me!!!</button>
+        <p id="result"></p>
+        <script>
+            function multiply (a,b)
+           {
+            if(b === undefined);
+            b=5;
+           }
+           var result = a * b;
+
+           document.getElementById("result").innerHTML = result ;
+        </script>
+
+    </body>
+</html>
