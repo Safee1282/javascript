@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <h2>Array</h2>
+        <script>
+            var emp=[
+                "Safee",
+                "Sultan",
+                "sadiya",
+                "deepali"
+            ];
+            for(i=0;i<emp.length;i++)
+        {
+            document.write(emp[i] + "<br>")
+        }
+
+        var a1=["scratch","code.org","thunkable"]
+        var a2=["HTML","CSS","Java"]
+        var result=a1.concat(a2)
+        document.write(result)
+        document.write("<br>")
+        result.pop()
+        document.write(result)
+        document.write("<br>")
+        result.push("C++")
+        document.write("<br>")
+        document.write(result)
+        result[2]="Machine Learning"
+        document.write("<br>")
+        document.write(result)
+
+        </script>
+    </body>
+</html>
