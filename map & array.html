@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script>
+            var numbers = [25 , 12 , 19 , 56 , 10 ];
+            var newarray = numbers.map(myFunction);
+            function ascending() {
+                newarray.sort(function(a,b){return a - b});
+                document.getElementById("product_value").innerHTML = "The Ascending Order Of Mapped Values Are : " + newarray;
+            }
+
+
+            function descending() {
+                    newarray.sort(function (a, b) { return b - a });
+                    document.getElementById("product_value").innerHTML = "The Descending Order Of Mapped Values Are : " + newarray;
+                }
+
+                document.getElementById("product_value").innerHTML = "The Mapped Values Are : " + newarray;
+
+                function myFunction(num) {
+                    return num * 50;
+                }
+        </script>
+    </head>
+    <body>
+        <h2>Ascendin And Descending Order For Mapped Numbers</h2>
+        <p id="product_value"></p>
+
+
+        <button onclick="ascending()">Ascending Order</button>
+
+        <button onclick="descending()">Descending Order</button>
+    </body>
+</html>
