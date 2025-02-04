@@ -1,0 +1,31 @@
+.nav{
+    background-color: rgb(243, 166, 166);
+    overflow: hidden;
+}
+
+
+.nav a{
+    text-decoration: none;
+    font-variant: small-caps;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 15px;
+    float: left;
+}
+
+
+.nav li{
+    list-style-type: none;
+}
+
+
+.nav a:hover{
+    background-color: rgb(222, 15, 57);
+}
+
+
+.nav a.active{
+    background-color: rgb(123 , 255 , 123)
+}
