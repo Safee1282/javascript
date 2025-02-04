@@ -29,3 +29,21 @@
 .nav a.active{
     background-color: rgb(123 , 255 , 123)
 }
+
+
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+
+
+
+    .myslides {
+        display: none;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
