@@ -4,15 +4,15 @@
 }
 
 
-.nav a{
+div.nav a{
     text-decoration: none;
     font-variant: small-caps;
     color: black;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    padding: 5px 15px;
-    float: left;
+    padding: 10px 20px;
+    float:left;
 }
 
 
@@ -39,11 +39,10 @@
     height: 300px;
 
 
-
+}
 
     .myslides {
         display: none;
         max-height: 100%;
         max-width: 100%;
     }
-}
