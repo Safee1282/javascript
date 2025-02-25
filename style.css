@@ -1,10 +1,11 @@
-.nav{
+div.nav{
     background-color: rgb(243, 166, 166);
     overflow: hidden;
 }
 
 
 div.nav a{
+  float:left;
     text-decoration: none;
     font-variant: small-caps;
     color: black;
@@ -12,11 +13,11 @@ div.nav a{
     font-size: 20px;
     text-align: center;
     padding: 10px 20px;
-    float:left;
+    
 }
 
 
-.nav li{
+.nav ul{
     list-style-type: none;
 }
 
